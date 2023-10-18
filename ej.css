@@ -1,3 +1,59 @@
+:root{
+	--width-body: 100%;
+}
 body{
-	background-color: grey;
+	background-color: grey;}
+#pie{
+	background-color: #bbb;
+	clear: both;
+	color: #900;
+	padding: 10px;
+	text-align: center;
+}
+#menu{
+	background-color: #999;
+	float: left;
+	height: 480px;
+	padding: 20px;
+	width: 180px;
+}
+#conte{
+	background-color: #ddd;
+	float: left;
+	height: 500px;
+	padding: 10px;
+	width: 560px;
+}
+#cnt{
+	margin: 0 auto;
+	width: 800px;
+}
+#cabecera{
+	padding: 20px;
+}
+.button {
+	width: 25%;
+	display: inline-block;
+	float: left;
+  	padding: 15px 25px;
+  	font-size: 24px;
+  	cursor: pointer;
+  	text-align: center;
+  	text-decoration: none;
+  	outline: none;
+  	color: #fff;
+  	background-color: #4CAF50;
+  	border: none;
+  	margin: 0%;  
+}
+
+.button:active {
+  	background-color: #3e8e41;
+  	box-shadow: 0 5px #666;
+}
+#menu:hover{
+	width: 50%;
+}
+#menu:hover #conte{
+	width: 20%;
 }
